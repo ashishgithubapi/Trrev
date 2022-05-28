@@ -2,4 +2,4 @@ const http = require('http');
 const app = require('./app');
 const port = process.env.PORT || 4050;
 const server = http.createServer(app);
-server.listen(4050);
+server.listen(`${port}`);
