@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-       "start":"nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  },
+  "devDependencies": {},
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
