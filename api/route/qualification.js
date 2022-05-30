@@ -26,7 +26,7 @@ router.post('/qualification',(req,res)=>{
 })
 
 
-router.get('/qualification',(req,res)=>{
+router.get('/get-qualification',(req,res)=>{
     Qualification.find()
     .then(result=>{
         res.status(200).json({

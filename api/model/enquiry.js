@@ -6,7 +6,6 @@ const enquirySchema = new mongoose.Schema({
     address:String,
     phone:Number,
     age:Number,
-    course:String,
     qualification:String,
     enquirydate:Number,
     followupdate:Number,

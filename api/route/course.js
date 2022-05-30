@@ -25,7 +25,7 @@ router.post('/course',(req,res)=>{
     })
 })
 
-router.get('/course',(req,res)=>{
+router.get('/get-course',(req,res)=>{
     Course.find()
     .then(result=>{
         res.status(200).json({

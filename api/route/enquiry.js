@@ -33,7 +33,7 @@ router.post('/enquiry',(req,res)=>{
 })
 
 
-router.get('/enquiry',(req,res)=>{
+router.get('/get-enquiry',(req,res)=>{
       Enquiry.find()
       .then(result=>{
           res.status(200).json({
